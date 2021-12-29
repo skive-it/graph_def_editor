@@ -1,3 +1,26 @@
+Metadata-Version: 2.1
+Name: graph-def-editor
+Version: 0.1.0
+Summary: TensorFlow Graph Def Editor
+Home-page: UNKNOWN
+Maintainer: Graph Def Developers
+Maintainer-email: 
+License: Apache License, Version 2.0
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering :: Mathematics
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Software Development :: Libraries
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
 # GraphDef Editor
 
 ### A port of the TensorFlow `contrib.graph_editor` package that operates over serialized graphs
@@ -120,7 +143,7 @@ From the root folder of the cloned repo run the below command:
 python3 -m compileall .
 python3 setup.py sdist
 this will create a tar.gz file into the dist folder.
-Create a new release by going to https://github.com/skive-it/graph_def_editor/releases/new and uploading the tar file created so that it can be used for future installations. Please ensure to have the latest code being checked into the repository to ensure the tar and source code in the release are from the same source code.
+Create a new release by going to https://github.com/skive-it/multiVoice/releases/new and uploading the tar file created so that it can be used for future installations. Please ensure to have the latest code being checked into the repository to ensure the tar and source code in the release are from the same source code.
 
 
 ## IDE setup instructions
@@ -156,3 +179,5 @@ To execute a specific test:
 ```sh
 docker run -v ${PWD}:/v -w /v tensorflow/tensorflow:<version>[-py3] python -m tests.transform_test
 ```
+
+
